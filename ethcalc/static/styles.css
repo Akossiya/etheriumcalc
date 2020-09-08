@@ -1,0 +1,22 @@
+input[type = "button"]
+{
+	background-color: skyblue;
+	border-radius: 20px;
+	width: 45%;
+}
+td
+{
+	margin: 5px;
+	padding: 5px; 
+}
+table
+{
+	background-color: silver; 
+	border: 2px solid;
+	border-radius: 5px;
+}
+
+.calc{
+	margin-left: 570px;
+	margin-top: 150px;
+}

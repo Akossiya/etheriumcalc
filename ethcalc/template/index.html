@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+{%load static %}
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title> Etherium calculator</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'styles.css'%}">
+	<script src="{% static 'script.js'%}">
+		
+	</script>
+</head>
+<body>
+	<div class="calc">
+		<table>
+			<tr>
+				<td colspan="2"><legend style="text-align: center;">Etherium Calculator</legend></td>
+			</tr>
+			<tr>
+				<td colspan="2"><legend style="text-align: center;">Enter the amount and you will get equivalent in USD  </legend></td>
+			</tr>
+			<tr>
+				<td colspan="1">
+					<input type="text" id="res" value="" name="">			
+				</td>
+				<td>
+					<select name="etheriumType" id="etheriumType">
+  						<option id="ec" value="etheriumClassic">Etherium Classic</option>
+  						<option id="e" value="etherium">Etherium</option>
+					</select>
+				</td>
+				
+			</tr>
+			<tr>
+				<td>
+					<input id="eq" type="button" onclick="solve()" value="=" name="">
+				</td>
+				<td>
+					<input id="Clear" type="button" onclick="clear()"  value="Clear" name="">
+				</td>
+			</tr>
+		</table>
+	</div>
+
+</body>
+</html>
